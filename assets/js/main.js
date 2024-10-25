@@ -49,8 +49,8 @@
 
   function mobileNavToogle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavToggleBtn.classList.toggle('bi-list');
-    mobileNavToggleBtn.classList.toggle('bi-x');
+    mobileNavToggleBtn.classList.toggle('fa-bars');
+    mobileNavToggleBtn.classList.toggle('fa-bars');
   }
   mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 
